@@ -1,0 +1,1 @@
+import{j as t,C as e}from"./vendor-LjbCKWXj.js";function i(){return t.jsx("div",{className:"fixed top-0 z-10 flex items-center justify-center w-full h-full backdrop-blur-sm bg-tertiaryColor/10",children:t.jsx(e,{weight:"bold",className:"w-14 h-14 animate-spin text-tertiaryColor"})})}export{i as L};
