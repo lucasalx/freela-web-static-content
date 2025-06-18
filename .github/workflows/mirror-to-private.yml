@@ -26,7 +26,7 @@ jobs:
         env:
           PAT: ${{ secrets.DEST_REPO_PAT }}
         run: |
-          git remote add private https://x-access-token:${PAT}@github.com/freelaapp/freela-static-content.git
+          git remote add private https://x-access-token:${PAT}@github.com/freelaapp/freela-web-static-content.git
 
       # 4) Força o push de todas as refs (branches e tags)
       - name: Push to private
